@@ -53,7 +53,14 @@ const StyledSubTitle = styled.h3`
   color: rgb(31, 31, 31);
 `;
 
-const BugReport = styled.a`
+const ExchangeLink = styled.a`
+  position: absolute;
+  right: 0.5rem;
+  bottom: 1.5rem;
+  color: rgb(128, 160, 194);
+`;
+
+const BlockchainLink = styled.a`
   position: absolute;
   right: 0.5rem;
   bottom: 0.5rem;
@@ -70,7 +77,7 @@ const Spacer = styled.div`
   margin-bottom: 1rem;
 `;
 
-const url = 'https://www.silicoin.cc';
+const url = 'https://petroleum.farm';
 
 type Props = {
   version: string;
@@ -109,12 +116,12 @@ export default function About(props: Props) {
           </StyledLogoContainer>
 
           <StyledTitle>
-            {productName} {version}
+            {productName} {version + "(Venus)"}
           </StyledTitle>
         </StyledLink>
         <StyledSubTitle>{description}</StyledSubTitle>
         <Spacer />
-        <div className="copyright">Copyright (c) 2021 Silicoin Network</div>
+        <div className="copyright">Copyright (c) 2022 Petroleum Network</div>
         <Spacer />
         <VersionsTable>
           {versions?.electron && (
@@ -143,12 +150,18 @@ export default function About(props: Props) {
           )}
         </VersionsTable>
 
-        <BugReport
-          href="https://github.com/silicoin-network/silicoin-blockchain/issues"
+        <ExchangeLink
+          href="https://forkschiaexchange.com/"
           target="_blank"
         >
-          Report an issue
-        </BugReport>
+          Forks Chia Exchange
+        </ExchangeLink>
+        <BlockchainLink
+          href="https://chiaforksblockchain.com/"
+          target="_blank"
+        >
+          Blockchain DBs
+        </BlockchainLink>
         {'{{CSS}}'}
       </body>
     </html>

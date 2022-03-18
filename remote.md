@@ -32,7 +32,7 @@ Find the `ui` section in `config.yaml` and specify the following settings:
 
 ````yaml
 daemon_host: <name or IP of the daemon host>
-daemon_port: 55400
+daemon_port: 33310
 daemon_ssl:
   private_crt: config/ssl/ui/private_daemon.crt
   private_key: config/ssl/ui/private_daemon.key
