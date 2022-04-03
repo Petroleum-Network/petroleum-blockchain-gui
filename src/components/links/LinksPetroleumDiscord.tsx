@@ -16,7 +16,7 @@ export default function LinksPetroleumDiscord() {
   const openExternal = useOpenExternal();
 
   function LinksURLbuttonClickPetroleumDiscord() {
-            openExternal('https://discord.gg/rSbPkFmpQV');
+            openExternal('https://discord.gg/7bFQxmtjHx');
         }
 		
   return (
