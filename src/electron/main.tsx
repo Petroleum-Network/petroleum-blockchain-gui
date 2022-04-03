@@ -423,7 +423,7 @@ if (!handleSquirrelEvent()) {
             label: i18n._(/* i18n */ { id: 'Petroleum Discord' }),
             click: () => {
               openExternal(
-                'https://discord.gg/rSbPkFmpQV',
+                'https://discord.gg/7bFQxmtjHx',
               );
             },
           },
