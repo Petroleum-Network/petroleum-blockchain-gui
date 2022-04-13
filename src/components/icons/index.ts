@@ -11,3 +11,4 @@ export { default as Status } from './Status';
 export { default as Trade } from './Trade';
 export { default as Wallet } from './Wallet';
 export { default as Links } from './Links';
+export { default as News } from './News'

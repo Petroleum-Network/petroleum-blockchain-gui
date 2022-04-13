@@ -23,7 +23,7 @@ import DashboardSideBar from './DashboardSideBar';
 import { DashboardTitleTarget } from './DashboardTitle';
 import TradeManager from '../trading/TradeManager';
 import BackupCreate from '../backup/BackupCreate';
-
+import News from '../news/News'
 const StyledRoot = styled(Flex)`
   height: 100%;
   // overflow: hidden;
@@ -104,6 +104,9 @@ export default function Dashboard() {
           </Route>
           <Route path={`${path}/trade`}>
             <TradeManager />
+          </Route>
+          <Route path={`${path}/news`}>
+            <News />
           </Route>
           <Route path={`${path}/settings`}>
             <Settings />

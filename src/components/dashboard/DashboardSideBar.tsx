@@ -10,6 +10,7 @@ import {
   Home as HomeIcon,
   Plot as PlotIcon,
   Pool as PoolIcon,
+  News as NewsIcon,
   Settings as SettingsIcon,
   Stake as StakeIcon,
   Links as LinksIcon,
@@ -38,6 +39,12 @@ export default function DashboardSideBar() {
   return (
     <StyledRoot>
       <StyledList disablePadding>
+        <SideBarItem
+          to="/dashboard/news"
+          icon={<NewsIcon fontSize="large" />}
+          title={<Trans>News</Trans>}
+          exact
+        />
         <SideBarItem
           to="/dashboard"
           icon={<HomeIcon fontSize="large" />}

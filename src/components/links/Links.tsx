@@ -43,6 +43,10 @@ export default function Links() {
 				  <Grid container spacing={4} alignItems="stretch">
 
 				    <Grid item xs={12} sm={6} md={6}>
+					  <LinksForksChiaExchange headerTag={LinksHeaderSource} />
+					</Grid>
+
+				    <Grid item xs={12} sm={6} md={6}>
 					  <LinksPetroleumWebsite headerTag={LinksHeaderSource} />
 					</Grid>
 
@@ -60,10 +64,6 @@ export default function Links() {
 
 					<Grid item xs={12} sm={6} md={6}>
 					  <LinksChiaForksBlockchain headerTag={LinksHeaderSource} />
-					</Grid>
-
-					<Grid item xs={12} sm={6} md={6}>
-					  <LinksForksChiaExchange headerTag={LinksHeaderSource} />
 					</Grid>
 
 					<Grid item xs={12} sm={6} md={6}>
