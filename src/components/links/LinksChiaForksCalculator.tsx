@@ -16,7 +16,7 @@ export default function LinksChiaForksCalculator() {
   const openExternal = useOpenExternal();
 
   function LinksURLbuttonClickChiaForksCalculator() {
-            openExternal('https://chiaforkscalculator.com');
+            openExternal('https://chiaforkscalculator.com/petroleum');
         }
 
   return (
@@ -28,7 +28,7 @@ export default function LinksChiaForksCalculator() {
 
           <Typography variant="h5">
             <Trans>
-              Chia Forks Calculator
+              Petroleum Calculator
             </Trans>
           </Typography>
 
@@ -36,7 +36,7 @@ export default function LinksChiaForksCalculator() {
 
           <Typography variant="body1">
             <Trans>              
-              {'How much can one earn farming Chia forks? Find out at the Chia Forks Calculator'}
+              {'How much can one earn farming Petroleum? Find out at the Petroleum Calculator'}
             </Trans>
           </Typography>
 
@@ -46,7 +46,7 @@ export default function LinksChiaForksCalculator() {
               variant="contained"
               color="primary"
             >
-              <Trans>Visit Chia Forks Calcuator</Trans>
+              <Trans>Visit Petroleum Calcuator</Trans>
             </Button>
 
           </Flex>	  
