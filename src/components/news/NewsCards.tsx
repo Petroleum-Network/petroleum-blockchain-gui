@@ -14,7 +14,7 @@ import TextCard from './TextCards';
 export default function NewsCards(props: Props) {
   const [res, setRes] = React.useState(null);
   let parser = new Parser({
-    headers: { 'User-Agent': 'Mozilla/5.0' },
+    headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32' },
     requestOptions: { rejectUnauthorized: false },
   });
 
@@ -29,9 +29,13 @@ export default function NewsCards(props: Props) {
           console.log(item.title?item.title:'No Title' + ':' + item.link?item.link:'No Link' + item.pubDate?item.pubDate:'No Publication Date')
         });
         setRes(response.items);
+      } else {
+        console.log("No items in server response!");
+        console.log(response);
       }
       return null;
     }).catch((e) => {
+      console.log(e.message);
       setRes([{
         date: String(new Date().getDate()),
         title: "Error Getting Feed",
