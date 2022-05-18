@@ -15,6 +15,7 @@ import LinksForksChiaExchange from './LinksForksChiaExchange';
 import LinksChiaForkSpace from './LinksChiaForkSpace';
 import { LinksHeaderTarget } from './LinksHeader';
 import { LinksHeaderSource } from './LinksHeader';
+import LinksVindaxExchange from './LinksVindaxExchange';
 
 export default function Links() {
 
@@ -41,6 +42,10 @@ export default function Links() {
 				<div>
 
 				  <Grid container spacing={4} alignItems="stretch">
+
+                    <Grid item xs={12} sm={6} md={6}>
+					  <LinksVindaxExchange headerTag={LinksHeaderSource} />
+					</Grid>
 
 				    <Grid item xs={12} sm={6} md={6}>
 					  <LinksForksChiaExchange headerTag={LinksHeaderSource} />
