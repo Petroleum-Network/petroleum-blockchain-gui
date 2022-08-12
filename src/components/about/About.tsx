@@ -151,10 +151,10 @@ export default function About(props: Props) {
         </VersionsTable>
 
         <ExchangeLink
-          href="https://forkschiaexchange.com/"
+          href="https://swap.menu/"
           target="_blank"
         >
-          Forks Chia Exchange
+          Swap Menu
         </ExchangeLink>
         <BlockchainLink
           href="https://chiaforksblockchain.com/"

@@ -404,10 +404,10 @@ if (!handleSquirrelEvent()) {
             },
           },
           {
-            label: i18n._(/* i18n */ { id: 'Forks Chia Exchange' }),
+            label: i18n._(/* i18n */ { id: 'Swap Menu' }),
             click: () => {
               openExternal(
-                'https://forkschiaexchange.com',
+                'https://swap.menu',
               );
             },
           },

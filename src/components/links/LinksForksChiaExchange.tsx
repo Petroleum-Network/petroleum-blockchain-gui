@@ -16,7 +16,7 @@ export default function LinksForksChiaExchange() {
   const openExternal = useOpenExternal();
 
   function LinksURLbuttonClickForksChiaExchange() {
-            openExternal('https://forkschiaexchange.com');
+            openExternal('https://swap.menu');
         }
 
   return (
@@ -28,7 +28,7 @@ export default function LinksForksChiaExchange() {
 
           <Typography variant="h5">
             <Trans>
-              Forks Chia Exchange
+              Swap Menu
             </Trans>
           </Typography>
 
